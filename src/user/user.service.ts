@@ -19,7 +19,7 @@ export class UserService {
         fullName: createUserDto.fullName,
         email: createUserDto.email,
         password: hashedPassword,
-        role: Role.ADMIN,
+        role: Role.USER,
       },
     });
   }
